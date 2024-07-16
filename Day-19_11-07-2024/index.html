@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day-19_11-07-2024</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!----- Landing Page for Student Registration in online courses ----->
+
+
+    <div class="container">
+        <h1>Student Registration Form</h1>
+        <div class="form">
+
+        <!-- Personal Information Fieldset -->
+
+        <fieldset>
+            <legend>Personal Information</legend>
+            
+            <label for="fname">First Name:</label>
+            <input class="type-input" type="text" id="fname" name="fname" placeholder="e.g:- Lorem"  required><br><br>
+            
+            <label for="lname">Last Name:</label>
+            <input class="type-input" type="text" id="lname" name="lname" placeholder="e.g:- Ipsum"  required><br><br>
+
+            <label for="father">Father Name</label>
+            <input class="type-input" type="text" id="father" name="father" placeholder="e.g:- Lorem Ipsum"  required><br><br>
+            
+            <label for="dob">Date of Birth:</label>
+            <input class="type-input" type="date" id="dob" name="dob" required><br><br>
+            
+            <label for="gender">Gender:</label>
+            <input class="radio-input" type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+            <input class="radio-input" type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label>
+            <input class="radio-input" type="radio" id="other" name="gender" value="other" required>
+            <label for="other">Other</label><br><br>
+            
+            <label for="email">Email:</label>
+            <input class="type-input" type="email" id="email" name="email" placeholder="e.g:- abc123@gmail.com"  required><br><br>
+            
+            <label for="phone">Phone:</label>
+            <input class="type-input" type="number" id="phone" name="phone" placeholder="e.g:- +91-000-000-0000" ><br><br>
+        </fieldset>
+
+        <!-- Address Fieldset -->
+
+        <fieldset>
+            <legend>Address</legend>
+            
+            <label for="address">Address:</label>
+            <input class="type-input" type="text" id="address" name="address" placeholder="Address here..."  required><br><br>
+            
+            <label for="city">City:</label>
+            <input class="type-input" type="text" id="city" name="city" placeholder="City here..."  required><br><br>
+            
+            <label for="state">State:</label>
+            <input class="type-input" type="text" id="state" name="state" placeholder="State here..."  required><br><br>
+            
+            <label for="zip">Pin Code:</label>
+            <input class="type-input" type="text" id="zip" name="zip" placeholder="e.g:- 000000 "  required><br><br>
+        </fieldset>
+
+        <!-- Account Details Fieldset -->
+
+        <fieldset>
+            <legend>Account Details</legend>
+            
+            <label for="username">Username:</label>
+            <input class="type-input" type="text" id="username" name="username" placeholder="e.g:- @loreipsum"  required><br><br>
+            
+            <label for="password">Password:</label>
+            <input class="type-input" type="password" id="password" name="password" placeholder="e.g:- ........"  required><br><br>
+            
+            <label for="confirm_password">Confirm Password:</label>
+            <input class="type-input" type="password" id="confirm_password" name="confirm_password" placeholder="e.g:- ........"  required><br><br>
+        </fieldset>
+
+        <!-- Preferences Fieldset -->
+        <fieldset>
+            <legend>Course</legend>
+            
+            <label for="follow">Follow Us:</label>
+            <input class="checkbox-input" type="checkbox" id="follow" name="follow"><br><br>
+            
+            <label for="contact_method">Contact Method:</label>
+            <select id="contact_method" name="contact_method">
+                <option class="option-input" value="email">Email</option>
+                <option class="option-input" value="phone">Phone</option>
+                <option class="option-input" value="mail">Mail</option>
+            </select><br><br>
+
+            <label for="batch">Batch:</label>
+            <select id="batch" name="batch">
+                <option class="option-input" value="March-April">March-April</option>
+                <option class="option-input" value="April-May">April-May</option>
+                <option class="option-input" value="May-June">May-June</option>
+                <option class="option-input" value="June-July">June-July</option>
+                <option class="option-input" value="July-August">July-August</option>
+            </select><br><br>
+
+            <label for="domains">Domain:</label>
+            <select name="domain" id="domains">
+                <option class="option-input" value="Web Development">Web Development</option>
+                <option class="option-input" value="Data Science">Data Science</option>
+                <option class="option-input" value="Machine Learning">Machine Learning</option>
+                <option class="option-input" value="Artificial Intelligence">Artificial Intelligence</option>
+                <option class="option-input" value="Cloud Computing">Cloud Computing</option>
+                <option class="option-input" value="Networking">Networking</option>
+                <option class="option-input" value="Cyber Security">Cyber Security</option>
+                <option class="option-input" value="Game Development">Game Development</option>
+                <option class="option-input" value="Graphic Design">Graphic Design</option>
+                <option class="option-input" value="Animation">Animation</option>
+                <option class="option-input" value="3D Modeling">3D Modeling</option>
+                <option class="option-input" value="Virtual Reality">Virtual Reality</option>
+                <option class="option-input" value="Augmented Reality">Augmented Reality</option>
+            </select><br><br>
+        </fieldset>
+
+        <!-- Query Fieldset -->
+        <fieldset>
+            <legend>Your Query</legend>
+            
+            <label for="comments">Comment:</label><br>
+            <textarea class="txt-area" id="comments" name="comments" placeholder=" Your Query Here..." ></textarea><br><br>
+        </fieldset><br>
+
+            <!-- Reset Button -->
+            <section class="buttons">
+            <input type="reset" value="Reset" class="btn">
+
+            <!-- Submit Button -->
+            <input type="submit" value="Submit" class="btn">
+        </section>
+    </form>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

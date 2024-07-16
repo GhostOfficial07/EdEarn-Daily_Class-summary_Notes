@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day-20_12-07-2024</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!----- Today we learned about Conditional Statement in JavaScript ----->
+    <!-- In JavaScript we have two forms of conditions 
+                                                        1. if() statement
+                                                        2. else() statement -->
+
+    <!--- if() statement:
+                        The if statement evaluates the condition inside the (). If it founds true, then code inside it will be executed otherwise it's not -->
+
+        <!-- Example:
+                    if(age >= 18) {
+                                    console.log ("Eligible to Vote")
+                                  }-->
+
+    <!--- else() statement:
+                           This statement is used when if statement founds false. --->
+
+        <!-- Exaple:
+                    if(age >= 18) {
+                                    console.log ("Eligible to Vote")
+                                  }
+                    else{
+                        console.log("You are underage / Minor. Not Eligible to Vote")
+                        } --->
+
+
+
+    <!----- NOTE: "console.log is used to print the code written inside these conditional statements" ----->
+
+
+    <script>
+
+
+        let age = prompt("Enter your Age");
+        if(age >= 18) {
+            console.log("Eligible to Vote")
+            }
+        else{
+            console.log("You are underage / Minor. Not Eligible to Vote")
+            }
+
+
+// let a = parseInt(prompt("Enter first number"));
+// let b = parseInt(prompt("Enter second number"));
+// let c = a + b;
+// console.log("Sum of both numbers are:" + c);
+// document.write("Sum of both numbers are: " + c);
+
+        </script>
+    
+</body>
+</html>
