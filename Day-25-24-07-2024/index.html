@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day-25-24-07-2024</title>
+</head>
+<body>
+    
+    <!----- Today we learned about conditional statement in depth. Basically, we discussed about if(), else(), else if() & nested if ----->
+
+
+    <!-- Example of if-else condition -->
+
+    <script>
+
+    let age = prompt("Enter your Age");
+        if(age >= 18) {
+            console.log("Eligible to Vote")
+            }
+        else{
+            console.log("You are underage / Minor. Not Eligible to Vote")
+            }
+
+    </script>
+
+
+
+    <!-- Example of else if statement -->
+
+    <script>
+        let bankAccountAvailable = false; // No, I don't have a Bank Account
+        let personAvailable = true; // The person is in the city
+
+        if(bankAccountAvailable) {
+            console.log("I can transfer money to you");
+        }
+        else if(personAvailable) {
+            console.log("I can give you money hand to hand");
+        }
+        else{
+            console.log("I can't do anything for you");
+        }
+    </script>
+
+    <!-- Example of Nested if -->
+
+    <script>
+        let accountAvailable = true; // Yes, I have a Bank Account
+        let moneyAvailable = false; // The person is in the city
+
+        if(accountAvailable) {
+            if(moneyAvailable) {
+            console.log("I can transfer money to you");
+        }
+        else{
+            console.log("Insufficient Amount");
+        }
+    }
+        else{
+            console.log("No bank account available");
+            if(isGovernmentIDAvailable){
+                console.log("Contact your bank for New Account");   
+            }
+        else{
+            console.log("I can't do anything for you")
+        }
+    }
+    </script>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
