@@ -1,0 +1,12 @@
+{
+    "Name": "Zebra",
+    "type": "Animal",
+    "UniqueProps": "Striped",
+    "Lifespan": "12-15 years",
+    "Habitat": "Savannas and grasslands",
+    "Diet": "Herbivore",
+    "Weight": "200-300 kg",
+    "Height": "1.2-1.5 m",
+    "Speed": "40-50 km/h",
+    "Sound": "Bray"
+}

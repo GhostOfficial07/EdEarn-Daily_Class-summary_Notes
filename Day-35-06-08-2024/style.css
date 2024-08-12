@@ -1,0 +1,97 @@
+body{
+    background-color: black;
+}
+
+.navbar-brand{
+    position: absolute;
+    font-size: 50px;
+    margin-left: 50px;
+}
+
+.navbar-brand span{
+    color: red;
+}
+
+.collapse{
+    margin-left: 1300px;
+    font-size: 25px;
+}
+
+.collapse li{
+    position: relative;
+    margin-right: 100px;
+}
+
+.intro{
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading{
+    position: relative;
+    top: 150px;
+    font-size: 50px;
+    color: white;
+    margin-left: 50px;
+}
+
+.text-center{
+    position: relative;
+    top: 200px;
+    font-size: 30px;
+    width: 900px;
+    color: rgb(126, 126, 126);
+    margin-left: 50px;
+}
+
+.profile-pic{
+    position: relative;
+    margin-right: 100px;
+    top: 150px;
+}
+
+.btn{
+    position: relative;
+}
+
+.projects{
+    position: relative;
+    top: 300px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card{
+    height: 350px;
+    width: 500px;
+    margin: 50px;
+    cursor: pointer;
+}
+
+.form{
+    position: relative;
+    margin-left: 1200px;
+    top: 500px;
+    width: 600px;
+    background-color: rgb(233, 232, 232);
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.form label{
+    font-size: 20px;
+}
+
+.form input, textarea{
+    box-shadow: 0 0 5px inset rgb(39, 39, 39);
+}
+
+.footer{
+    position: relative;
+    top: 700px;
+    background-color: rgb(113, 113, 113);
+    color: white;
+    padding: 20px;
+}
